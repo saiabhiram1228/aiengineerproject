@@ -1,0 +1,95 @@
+import type { Email } from "./types";
+
+export const mockEmails: Email[] = [
+  {
+    id: "1",
+    from: {
+      name: "Eve",
+      email: "eve@startup.io",
+      avatar: "https://picsum.photos/id/101/40/40",
+    },
+    subject: "Help required with account verification",
+    body: "Do you support integration with third-party APIs? Specifically, I'm looking for CRM integration options.",
+    date: new Date("2025-08-19 00:58:09").toISOString(),
+    read: false,
+    labels: ["Pending"],
+  },
+  {
+    id: "2",
+    from: {
+      name: "Diana",
+      email: "diana@client.co",
+      avatar: "https://picsum.photos/id/102/40/40",
+    },
+    subject: "General query about subscription",
+    body: "Hi team, I am unable to log into my account since yesterday. Could you please help me resolve this issue?",
+    date: new Date("2025-08-25 00:58:09").toISOString(),
+    read: false,
+    labels: ["Pending"],
+  },
+  {
+    id: "3",
+    from: {
+      name: "Eve",
+      email: "eve@startup.io",
+      avatar: "https://picsum.photos/id/101/40/40",
+    },
+    subject: "Urgent request: system access blocked",
+    body: "Immediate support needed for billing error Hello, I wanted to understand the pricing tiers better. Could you share a detailed breakdown?",
+    date: new Date("2025-08-20 12:58:09").toISOString(),
+    read: true,
+    labels: ["Resolved"],
+  },
+  {
+    id: "4",
+    from: {
+      name: "Alice",
+      email: "alice@example.com",
+      avatar: "https://picsum.photos/id/104/40/40",
+    },
+    subject: "Question: integration with API",
+    body: "Hi team, I am unable to log into my account since yesterday. Could you please help me resolve this issue?",
+    date: new Date("2025-08-21 21:58:09").toISOString(),
+    read: true,
+    labels: ["Resolved"],
+  },
+  {
+    id: "5",
+    from: {
+      name: "Eve",
+      email: "eve@startup.io",
+      avatar: "https://picsum.photos/id/101/40/40",
+    },
+    subject: "Critical help needed for downtime",
+    body: "Despite multiple attempts, I cannot reset my password. The reset link doesn't seem to work.",
+    date: new Date("2025-08-20 04:58:09").toISOString(),
+    read: false,
+    labels: ["Pending"],
+  },
+  {
+    id: "6",
+    from: {
+      name: "Alice",
+      email: "alice@example.com",
+      avatar: "https://picsum.photos/id/104/40/40",
+    },
+    subject: "Help required with account verification",
+    body: "Hi team, I am unable to log into my account since yesterday. Could you please help me resolve this issue?",
+    date: new Date("2025-08-18 08:58:09").toISOString(),
+    read: true,
+    labels: ["Pending"],
+  },
+  {
+    id: "7",
+    from: {
+      name: "Diana",
+      email: "diana@client.co",
+      avatar: "https://picsum.photos/id/102/40/40",
+    },
+    subject: "Support needed for login issue",
+    body: "There is a billing error where I was charged twice. This needs immediate correction.",
+    date: new Date("2025-08-20 19:58:09").toISOString(),
+    read: false,
+    labels: ["Pending"],
+  },
+];
